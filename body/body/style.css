@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+.container-img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-img-left{
+    width: 20%;
+    height: 200px;
+}
+
+.container-img-right{
+    height: 200px;
+    width: 80%;
+}
+
+.header__list{
+    display: flex;
+    background-color: #000;
+    padding: 8px 6px;
+    align-items: center;
+}
+.header__list-text{
+    list-style-type: none;
+    margin: 4px 8px;
+}
+.header__list-text-child{
+    text-decoration: none;
+    color: #fff;
+}
+.header__list-search{
+    border: 1px solid #fff;
+    padding: 4px 6px;
+}
+.header__list-search:focus{
+    border: none;
+}
+
+.navbar{
+    background-color: rgb(37, 37, 37) ;
+    color: rgb(211, 205, 205);
+}
+
+
+.content{
+    margin: 0 46px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    
+}
+.content__text{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.content__text-price{
+    color: red;
+}
+
+.content-img{
+    height: 200px;
+}
+.content__right-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content__right-login{
+    display: flex;    
+    flex-direction: column;
+
+    
+}
+.content__right-logintk ,
+.content__right-password{
+    display: flex;
+    flex-direction: row;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    justify-content: space-between;
+    padding: 12px 6px;
+    
+}
+.content-comment{
+    display: block;
+    text-align: center;
+}
+
+.commen-input{
+
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.foodtel{
+    display: block;
+    text-align: center;
+    background-color: rgb(153, 129, 24);
+    margin-top: 60px;
+}
+.content__img-left,
+.content__text {
+    margin-top: 150px;
+}
